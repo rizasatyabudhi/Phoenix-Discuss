@@ -1,0 +1,7 @@
+* Migration: To tell postgress about the Database Structure
+  * mix ecto.gen.migration add_topics (priv > repo > migrations will be created)
+  * After adding schema in repo > migrations, run the command:
+    * mix ecto.migrate
+
+
+* Purpose of Model : To relate the phoenix model with the one in the Database
